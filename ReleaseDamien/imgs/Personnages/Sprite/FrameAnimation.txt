@@ -1,0 +1,34 @@
+//Dio
+player[1].animation[0] = setAnimation(IntRect(1, 7, 25, 64), 10, 100.0) //idle
+player[1].animation[1] = setAnimation(IntRect(2, 102, 53, 47), 4, 100.0) //walk
+player[1].animation[2] = setAnimation(IntRect(23, 1635, 28, 65), 3, 100.0) //Guard
+// player[1].animation[3] = setAnimation(IntRect(0, 0, 0, 0), 0, 100.0) //StandGuard
+player[1].animation[4] = setAnimation(IntRect(4, 221, 48, 71), 3, 100.0) //start jump
+player[1].animation[5] = setAnimation(IntRect(100, 221, 48, 71), 2, 100.0) //jump in air
+player[1].animation[6] = setAnimation(IntRect(196, 221, 48, 71), 4, 100.0) //end jump
+player[1].animation[7] = setAnimation(IntRect(1, 439, 60, 63), 9, 100.0) //attaque1
+player[1].animation[8] = setAnimation(IntRect(1, 1316, 60, 65), 9, 100.0) //attaque2
+player[1].animation[9] = setAnimation(IntRect(1, 840, 68, 62), 6, 100.0) //specialHaut
+player[1].animation[10] = setAnimation(IntRect(1, 1494, 101, 86), 7, 100.0) //Special
+player[1].animation[11] = setAnimation(IntRect(1, 1129, 69, 58), 5, 100.0) //SpecialBas
+player[1].animation[12] = setAnimation(IntRect(123, 3328, 61, 66), 2, 100.0) //EstTapé
+player[1].animation[13] = setAnimation(IntRect(245, 3328, 61, 66), 7, 100.0) //Tombe
+player[1].animation[13] = setAnimation(IntRect(367, 3328, 61, 66), 1, 100.0) //est a terre
+
+//Hol Horse (j'ai mis 1 mais je sais plus quel est son id à Hol Horse, faut de mander à Damien)
+
+player[1].animation[0] = setAnimation(IntRect(15, 27, 41, 62), 3, 100.0) //idle
+player[1].animation[1] = setAnimation(IntRect(3, 105, 53, 59), 8, 100.0) //walk
+player[1].animation[2] = setAnimation(IntRect(64, 272, 37, 60), 1, 100.0) //Guard
+// player[1].animation[3] = setAnimation(IntRect(0, 0, 0, 0), 0, 100.0) //StandGuard
+player[1].animation[4] = setAnimation(IntRect(12, 181, 41, 64), 3, 100.0) //start jump
+player[1].animation[5] = setAnimation(IntRect(135, 181, 41, 64), 2, 100.0) //jump in air
+player[1].animation[6] = setAnimation(IntRect(176, 181, 41, 64), 4, 100.0) //end jump
+player[1].animation[7] = setAnimation(IntRect(12, 476, 46, 63), 5, 100.0) //attaque1
+player[1].animation[8] = setAnimation(IntRect(2, 940, 56, 68), 7, 100.0) //attaque2
+player[1].animation[9] = setAnimation(IntRect(36, 1046, 60, 82), 11, 100.0) //specialHaut
+player[1].animation[10] = setAnimation(IntRect(6, 1156, 191, 66), 8, 100.0) //Special
+player[1].animation[11] = setAnimation(IntRect(77, 1408, 72, 71), 7, 100.0) //SpecialBas
+player[1].animation[12] = setAnimation(IntRect(1, 2171, 68, 63), 3, 100.0) //EstTapé
+player[1].animation[13] = setAnimation(IntRect(205, 2171, 68, 63), 8, 100.0) //Tombe
+player[1].animation[13] = setAnimation(IntRect(409, 2171, 68, 63), 1, 100.0) //est a terre
