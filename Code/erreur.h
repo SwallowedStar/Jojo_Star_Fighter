@@ -1,0 +1,2 @@
+#define IMG_NON_EXISTANTE 1
+#define SON_NON_EXISTANT 2
